@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
-** Rubric Points**
+#### Rubric Points
 
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
@@ -33,7 +33,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ![distribution of the classes](./assets/classes_bar_chart.png)
 
-### Examples
+### Examples of Signs
  ![class 1: Speed Limit](./assets/class_1.png)
  ![class 27: Pedestrains](./assets/class_27.png)
 
@@ -85,11 +85,11 @@ In the end, the validation accuracy was about 0.95, and the test accuracy was ab
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][./new-images/1.jpeg]
-![alt text][./new-images/2.jpeg]
-![alt text][./new-images/3.jpeg]
-![alt text][./new-images/4.jpeg]
-![alt text][./new-images/5.jpeg]
+![alt text](./new-images/1.jpeg)
+![alt text](./new-images/2.jpeg)
+![alt text](./new-images/3.jpeg)
+![alt text](./new-images/4.jpeg)
+![alt text](./new-images/5.jpeg)
 
 Here are the results of the prediction:
 
