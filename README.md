@@ -103,7 +103,7 @@ Here are the results of the prediction:
 
 Surprisingly, the model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%.
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook. The model performs super well on these new images. 
+The code for making predictions on my final model is located in the 73th cell of the Ipython notebook. The model performs super well on these new images. 
 
 ```
 [[ 1.000  0.000  0.000  0.000  0.000]
