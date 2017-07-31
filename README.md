@@ -121,11 +121,12 @@ The model performs super well on predicting the classes of these new images.
 I outputted the feature maps of the first conv layer: the original weights, the ReLU activation, and the one after maxpooling.
 
 The image used for visualization
+
 ![speed limit 30km/hour](./new-images/5.jpeg)
 
 The feature maps
 ![conv layer 1](./nn_status/conv_1.png)
-![conv layer 1: ReLU activation](./nn_status/conv_relu1.png)
+![conv layer 1: ReLU activation](./nn_status/conv_relu_1.png)
 ![conv layer 1: after pooling](./nn_status/conv_pooling_1.png)
 
 I am not sure how to interpret the maps, but the map for ReLU activation seems catch the profile of the sign.
