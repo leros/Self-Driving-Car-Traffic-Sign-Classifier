@@ -68,16 +68,16 @@ To train the model, I used an `AdamOptimizer`, the hyperparameters I chose were:
 - keep probability: 0.5
 
 My final model results were:
-* training set accuracy of 0.995
-* validation set accuracy of 0.948
-* test set accuracy of 0.939
+* training set accuracy of 0.998
+* validation set accuracy of 0.957
+* test set accuracy of 0.946
 
 I built the model based on the LeNet architecture. I chose the architecture because the objects to be classified in the traffic sign project are similar to the objects in the LeNet project. However, there are more classes in the traffic sign projects.
 
 
 At the very beginning, I merely updated the number of input channels from 1 to 3 and the number of classes from 10 to 43, and I could reach a 85% of validation accuracy. In order to improve the accuracy, I ran the training with more epochs. Additionally, I made each layer larger by increasing the number of nodes. Then I observed the issue of overfitting: the training accuaray was almost 1.0, while the validation accuracy was just about 0.88. To resolve the problem I applied Dropout to fully connected layers. I also tried decaying the learning rate when using `AdamOptimizer`. However, the experiments were not successful. I tried setting the decaying rate to 0.1 and 0.5, neither worked. I cannot say the overfitting problem got fully resolved, but I think I was on the right track.  
 
-In the end, the validation accuracy was about 0.95, and the test accuracy was about 0.94.
+In the end, the validation accuracy was about 0.96, and the test accuracy was about 0.95.
 
 
 
@@ -102,8 +102,7 @@ Here are the results of the prediction:
 | Speed limit (30km/h)		| Speed limit (30km/h)      							|
 
 Surprisingly, the model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%.
-
-The code for making predictions on my final model is located in the 73th cell of the Ipython notebook. The model performs super well on these new images. 
+The model performs super well on predicting the classes of these new images.
 
 ```
 [[ 1.000  0.000  0.000  0.000  0.000]
