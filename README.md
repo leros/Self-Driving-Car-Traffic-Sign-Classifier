@@ -90,6 +90,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text](./new-images/3.jpeg)
 ![alt text](./new-images/4.jpeg)
 ![alt text](./new-images/5.jpeg)
+The second image should be easy to predict. It's the only inverted triangle in the signs. The first and the third images are a bit similar. They both have triangle shape. The fourth one is kind of unique. The last one would be a challenge. There are several signs for speed limits, and they are all look similar except that the numbers inside the circle are different.
 
 Here are the results of the prediction:
 
@@ -102,6 +103,8 @@ Here are the results of the prediction:
 | Speed limit (30km/h)		| Speed limit (30km/h)      							|
 
 Surprisingly, the model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%.
+I would say the performance on the new images is similar to the accuracy results of the test set given we only have 5 data points here.
+
 The model performs super well on predicting the classes of these new images.
 
 ```
@@ -116,6 +119,7 @@ The model performs super well on predicting the classes of these new images.
  [ 9 10 16 19 41]
  [ 1  0  2  3  4]]
 ```
+The model was very certain about the predication it gave, i.e. 100% sure about the signs of image 1, 2, 4, and 5, and 98.4% sure about the sign of image 3.
 
 ### Visualizing the Neural Network
 I outputted the feature maps of the first conv layer: the original weights, the ReLU activation, and the one after maxpooling.
