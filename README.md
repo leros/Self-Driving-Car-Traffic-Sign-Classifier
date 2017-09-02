@@ -90,7 +90,12 @@ Here are five German traffic signs that I found on the web:
 ![alt text](./new-images/3.jpeg)
 ![alt text](./new-images/4.jpeg)
 ![alt text](./new-images/5.jpeg)
-The second image should be easy to predict. It's the only inverted triangle in the signs. The first and the third images are a bit similar. They both have triangle shape. The fourth one is kind of unique. The last one would be a challenge. There are several signs for speed limits, and they are all look similar except that the numbers inside the circle are different.
+
+In terms of the qualities of the signs in the images that are of interest, the second image is hard to classify due to the noise in the background. For other images, the signs are all pretty clear.
+
+Considering the traits of the signs, the second sign should be easy to predict. It's the only inverted triangle in the signs. The first and the third signs are a bit similar. They both have triangle shape. The fourth one is kind of unique. The last one would be a challenge. There are several signs for speed limits, and they are all look similar except that the numbers inside the circle are different.
+
+
 
 Here are the results of the prediction:
 
